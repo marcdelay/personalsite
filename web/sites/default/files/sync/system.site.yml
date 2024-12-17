@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 2091d646-5b40-40b6-b13d-cc260d9ea4df
+name: "Marc DeLay's Geocity"
+mail: admin@example.com
+slogan: 'Come for the laughs, stay for the tech.'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

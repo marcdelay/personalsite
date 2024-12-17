@@ -1,0 +1,22 @@
+uuid: 0448e944-86ed-4a86-ba42-cd5c0042ce99
+langcode: en
+status: true
+dependencies:
+  theme:
+    - marcdelaycom
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: marcdelaycom_secondary_local_tasks
+theme: marcdelaycom
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

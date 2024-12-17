@@ -1,0 +1,22 @@
+uuid: 70ebc8df-bee1-4bd8-b706-2ad103ea936e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - marcdelaycom
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: marcdelaycom_content
+theme: marcdelaycom
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 7bedb087-4636-48f0-862d-9405db99dfee
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - marcdelaycom
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: marcdelaycom_help
+theme: marcdelaycom
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

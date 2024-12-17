@@ -1,0 +1,8 @@
+# Schema for the configuration files of the marcdelaycom theme.
+marcdelaycom.settings:
+  type: theme_settings
+  label: 'marcdelaycom settings'
+  mapping:
+    example:
+      type: string
+      label: Example
